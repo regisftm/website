@@ -1,4 +1,4 @@
-FROM nginx:1.22.1-alpine
+FROM nginx:1.25.0-alpine
 
 COPY simple-website/ /usr/share/nginx/html/
 
